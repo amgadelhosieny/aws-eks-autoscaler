@@ -4,6 +4,7 @@ mjcreate VPC for worker node with AWS CloudFormation using vpc.yml
 # step 1)
 
 create IAM Role for EKS cluster
+
 =============================================================================
 
 # step 2)
