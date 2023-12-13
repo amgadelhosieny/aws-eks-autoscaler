@@ -1,17 +1,18 @@
                                                                                                    # Aws-EKS-AutoScaler
-
+mjcreate VPC for worker node with AWS CloudFormation using vpc.yml
 
 # step 1)
 
 create IAM Role for EKS cluster
 =============================================================================
 
-# step 2
+# step 2)
 
 create VPC for worker node with AWS CloudFormation using vpc.yml
+
 =============================================================================
 
-# step 3
+# step 3)
 
 create EKS Cluster and connect to it with cloudshell and execute these commands:
 
@@ -23,7 +24,7 @@ kubectl get pods -A
 ```
 =============================================================================
 
-# step 4
+# step 4)
 
 create IAM Role for worker node with these specific Roles
 
@@ -34,7 +35,7 @@ create IAM Role for worker node with these specific Roles
 Then create the worker node (node group)
 =============================================================================
 
-# step 5
+# step 5)
 
 add cluster Auto-scaler by making the policy then attach the policy to IAM Role
 
