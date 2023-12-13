@@ -28,9 +28,9 @@ kubectl get pods -A
 
 create IAM Role for worker node with these specific Roles
 
-1) Amazon EKS worker node policy   #permissions for ec2 as desribe instance
-2) Amazon EC2 container Regestiry  #permissions to ec2 to read from ecr
-3) Amazon EKS CNI                  #gives IP address to ec2
+1) Amazon EKS worker node policy                      #permissions for ec2 as desribe instance
+2) Amazon EC2 container Regestiry                     #permissions to ec2 to read from ecr
+3) Amazon EKS CNI                                     #gives IP address to ec2
    
 Then create the worker node (node group)
 =============================================================================
