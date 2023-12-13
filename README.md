@@ -37,8 +37,14 @@ Then create the worker node (node group)
 
 # step 5)
 
-add cluster Auto-scaler by making the policy then attach the policy to IAM Role
+add cluster Auto-scaler by making the policy then attach the policy to IAM Role then apply these commands
 
+```bash
+kubectl get deployment -n kube-system cluster-autoscaler
+kubectl edit deployment -n kube-system cluster-autoscaler
+kubectl get pod -n kube-system
+kubectl logs -n kube-system <pod-name>
+```
 
 
 
