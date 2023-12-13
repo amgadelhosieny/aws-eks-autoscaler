@@ -1,5 +1,4 @@
-                                                                                                   # Aws-EKS-AutoScaler
-mjcreate VPC for worker node with AWS CloudFormation using vpc.yml
+# Aws-EKS-AutoScaler
 
 # step 1)
 
